@@ -1,0 +1,58 @@
+body {
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+  background-color: #000000;
+  color: white;
+  opacity: 0.8;
+}
+
+.container {
+  box-sizing: border-box;
+  justify-content: center;
+  margin: auto;
+}
+
+.zone-container {
+  box-sizing: border-box;
+  border: 4px solid white;
+  width: 600px;
+  height: 600px;
+  margin: 0.5rem auto;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+  background-image: url(./map.png);
+}
+
+.game-area {
+  display: flex;
+  justify-content: column;
+}
+
+.game-tips {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.game-tips p {
+  margin-top: 70px;
+}
+
+.dropdown {
+  padding: 13px 20px;
+  background-color: rgb(240, 197, 6);
+  border: none;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.8rem;
+}
+
+.dropdown-options {
+  padding: 15px;
+  color: rgb(253, 91, 91);
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
