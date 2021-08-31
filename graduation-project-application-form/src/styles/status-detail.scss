@@ -1,0 +1,62 @@
+.status {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  .app-info {
+    margin-top: 15px;
+    h3 {
+      font-size: 2rem;
+      font-weight: 500;
+      color: #c35eb6;
+
+      span {
+        color: rgb(92, 92, 92);
+      }
+    }
+    p {
+      color: rgb(37, 37, 37);
+      font-size: 1.2rem;
+      span {
+        color: rgb(95, 95, 95);
+        font-size: 1.1rem;
+        font-weight: 500;
+      }
+    }
+  }
+  img {
+    margin-top: 100px !important;
+    max-height: 350px;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+}
+
+.app-status {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+@media only screen and (max-width: 500px) {
+  .status {
+    display: grid;
+
+    .app-info {
+      margin-top: 0px;
+      h3 {
+        font-size: 1.8rem;
+      }
+    }
+    img {
+      max-width: 350px;
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+  }
+
+  .app-status {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+}

@@ -1,0 +1,16 @@
+.login {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  .error-msg {
+    margin-bottom: 20px !important;
+    color: red;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .login-button {
+    padding-right: 0 !important;
+    width: 75%;
+    margin: 0 !important;
+  }
+}

@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  padding: 10px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  .app-info {
+    h3 {
+      font-size: 2rem;
+      font-weight: 500;
+      color: #c35eb6;
+
+      span {
+        color: rgb(92, 92, 92);
+      }
+    }
+    p {
+      color: rgb(37, 37, 37);
+      font-size: 1.2rem;
+      span {
+        color: rgb(95, 95, 95);
+        font-size: 1.1rem;
+        font-weight: 500;
+      }
+    }
+  }
+  .response {
+    margin-top: 40px;
+    padding-left: 100px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .app {
+    display: grid;
+    padding: 0px;
+    .app-info {
+      h3 {
+        font-size: 1.8rem;
+        margin: 0px !important;
+      }
+    }
+    .response {
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  .app-info {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+}
